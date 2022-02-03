@@ -7,13 +7,20 @@
     <title>Triangle</title>
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="../css/triangleQuiz.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha512-c93ifPoTvMdEJH/rKIcBx//AL1znq9+4/RmMGafI/vnTFe/dKwnn1uoeszE2zJBQTS1Ck5CqSBE+34ng2PthJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
     <nav>
-        <p>fun with triangles 📐</p>
+        <p>fun with triangles 📐</p>        
+        <input type="checkbox" id="click">
+        <label for="click">
+            <i class="fas fa-bars" id="menubar"></i>
+        </label>
+
         <ul>
             <li>
-               <a href="isTriangle.html"> Is Triangle ?</a>
+               <a  href="isTriangle.html"> Is Triangle ?</a>
             </li>
             <li>
                 <a class="active" href="triangleQuiz.html">Triangle Quiz</a>
@@ -30,11 +37,11 @@
     <form class="question">
         <div class="question-container">
         <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
-        <input type="radio" name="question1" value="45">
+        <input type="radio" name="question1" value="45"  class="radioBtn">
         <label for="45">45 &#176;</label>
-        <input type="radio" name="question1" value="60">
+        <input type="radio" name="question1" value="60" class="radioBtn">
         <label for="60">60 &#176;</label>
-        <input type="radio" name="question1" value="90">
+        <input type="radio" name="question1" value="90" class="radioBtn">
         <label for="90">90 &#176;</label>
         </div>
 

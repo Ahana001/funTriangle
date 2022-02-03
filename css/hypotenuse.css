@@ -1,0 +1,33 @@
+
+h1{
+    margin: 3vh 1rem;
+}
+img{
+    margin: 3vh 0;
+    height: 30vh;
+}
+div{
+    margin: 2vh 0;
+}
+div label{
+    font-size: 1.5rem;
+    font-weight: 600
+}
+div input{
+    padding: 0 0.5rem;
+    font-size: 1.2rem;
+    border: 2px solid #000;
+}
+#submit{
+    background-color: #ff9800;
+    color:  #000;
+    font-size: 1.5rem;
+    margin-top: 5vh;
+    border: none;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+}
+#output{
+    margin: 3vh 0;
+    font-size: 1.5rem;
+}

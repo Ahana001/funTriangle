@@ -1,12 +1,11 @@
-const form = document.querySelector(".question");
 const buttton = document.querySelector("#answer");
 const ourput = document.querySelector("#output");
 let answers = ["90","Right Angled","Equilateral"];
-let input = [];
 
-function calculateScore(){
+function calculateScore(formData){
     let score = 0;
-    let ans = new FormData(form);
+    let input = [];
+    let ans = new FormData(formData);
     for(let [key , value] of ans){
         input.push(value);
     }
@@ -15,11 +14,13 @@ function calculateScore(){
             score = score + 1;
         }
     }
+    console.log(input);
     return score;
 }
 
 buttton.addEventListener('click',()=>{
-    let score = calculateScore();
+    const form = document.querySelector(".question");
+    let score = calculateScore(form);
     if(score == 3){
     ourput.innerText = `Your score is ${score} 🚀`;
     }else if(score == 0){
