@@ -1,6 +1,9 @@
 body{
     height: 100vh;
 }
+.body{
+    margin: 0 5vw;
+}
 .container{
     display: flex;
     flex-direction: column;
