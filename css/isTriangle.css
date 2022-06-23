@@ -2,7 +2,7 @@ body{
     height: 100vh;
 }
 .container{
-    max-width: 600px;
+    width: 600px;
     margin-top: 18vh;
     margin-left: auto;
     margin-right: auto;
@@ -40,4 +40,9 @@ h3{
 }
 .btn-container {
     text-align: center;
+}
+@media (max-width: 1050px){
+    .container{
+        width: 80%;
+    }
 }
