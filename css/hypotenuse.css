@@ -30,3 +30,11 @@ div input{
     margin-bottom: 2vh;
     font-size: 1.5rem;
 }
+.cotainer{
+    width: 600px;
+}
+@media (max-width: 1050px) {
+    .container {
+        width: 80%;
+    }
+}
