@@ -1,9 +1,9 @@
 h1{
-    margin: 3vh 1rem;
+    margin-top: 18vh;
 }
 img{
-    margin: 3vh 0;
-    height: 30vh;
+    margin: 2vh 0;
+    height: 20vh;
 }
 div{
     margin: 2vh 0;
@@ -21,12 +21,12 @@ div input{
     background-color: #ff9800;
     color:  #000;
     font-size: 1.5rem;
-    margin-top: 5vh;
+    margin: 2vh 0;
     border: none;
     padding: 0.5rem 1rem;
     text-transform: uppercase;
 }
 #output{
-    margin: 3vh 0;
+    margin-bottom: 2vh;
     font-size: 1.5rem;
 }

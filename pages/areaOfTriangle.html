@@ -1,68 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Triangle</title>
-    <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="../css/areaOfTriangle.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha512-c93ifPoTvMdEJH/rKIcBx//AL1znq9+4/RmMGafI/vnTFe/dKwnn1uoeszE2zJBQTS1Ck5CqSBE+34ng2PthJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../css/areaOfTriangle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css"
+      integrity="sha512-c93ifPoTvMdEJH/rKIcBx//AL1znq9+4/RmMGafI/vnTFe/dKwnn1uoeszE2zJBQTS1Ck5CqSBE+34ng2PthJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <nav>
-        <p>fun with triangles 📐</p>        
-        <input type="checkbox" id="click">
-        <label for="click">
-            <i class="fas fa-bars" id="menubar"></i>
-        </label>
+      <p>fun with triangles 📐</p>
+      <input type="checkbox" id="click" />
+      <label for="click">
+        <i class="fas fa-bars" id="menubar"></i>
+      </label>
 
-        <ul>
-            <li>
-               <a href="isTriangle.html"> Is Triangle ?</a>
-            </li>
-            <li>
-                <a href="triangleQuiz.html">Triangle Quiz</a>
-            </li>
-            <li>
-                <a href="hypotenuse.html">Find Hypotenuse</a>
-            </li>
-            <li>
-                <a class="active" href="areaOfTriangle.html">Area Of Triangle</a>
-            </li>
-        </ul>
+      <ul>
+        <li>
+          <a href="isTriangle.html"> Is Triangle ?</a>
+        </li>
+        <li>
+          <a href="triangleQuiz.html">Triangle Quiz</a>
+        </li>
+        <li>
+          <a href="hypotenuse.html">Find Hypotenuse</a>
+        </li>
+        <li>
+          <a class="active" href="areaOfTriangle.html">Area Of Triangle</a>
+        </li>
+      </ul>
     </nav>
-    <h1>
-        Calculate Area of Triangle
-    </h1>
-    <img src="../images/AreaOfTriangle.png" alt="AreaOfTriangle">
-    <div class="base">
+    <div class="container">
+      <h1>Calculate Area of Triangle</h1>
+      <img src="../images/AreaOfTriangle.png" alt="AreaOfTriangle" />
+      <div class="base">
         <label for="base-value">Enter Base value : </label>
-        <input type="number" id="base-value" class="input">
-    </div>
-    <div class="height">
+        <input type="number" id="base-value" class="input" />
+      </div>
+      <div class="height">
         <label for="height-value">Enter Height value : </label>
-        <input type="number" id="height-value" class="input">
+        <input type="number" id="height-value" class="input" />
+      </div>
+      <div class="btn-container">
+        <button id="submit">calculate Area</button>
+        <h3 id="output"></h3>
+      </div>
     </div>
-    <button id="submit">calculate Area</button>
-    <h3 id="output"></h3>
     <footer class="footer">
-        <ul>
-            <li>
-                <a href="https://github.com/Ahana001" target="_blank"><i class="fab fa-github"></i></a>
-            </li>
-            
-            <li>
-                <a href="https://twitter.com/Ankita050105" target="_blank"><i class="fab fa-twitter"></i></a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/ankita001/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-            </li>
-        </ul>
+      <ul>
+        <li>
+          <a href="https://github.com/Ahana001" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+
+        <li>
+          <a href="https://twitter.com/Ankita050105" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/ankita001/" target="_blank"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </li>
+      </ul>
     </footer>
     <script src="../js/areaOfTriangle.js"></script>
-</body>
+  </body>
 </html>
