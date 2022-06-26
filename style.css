@@ -102,6 +102,7 @@ nav #click{
         height: 100vh;
         width: 100%;
         transition: all 0.3s ease;
+        z-index:4;
     } 
     nav ul li{
         margin: 5vh 0;
