@@ -4,7 +4,7 @@ const angles = document.querySelectorAll(".angle");
 function calculateSum(anglesData) {
     let sum = 0;
     for (let i = 0; i < anglesData.length; i++) {
-        if (anglesData[i].value == "") {
+        if (anglesData[i].value == "" || parseInt(anglesData[i].value) < 0) {
             sum = 0;
             break;
         }
