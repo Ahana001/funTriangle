@@ -14,6 +14,11 @@ form .question-container{
     margin: 0.5rem 1rem;
     text-align: justify;
 }
+form .question-container p:before {
+    content: "➜";
+    margin-right: 5px;
+    display: inline-block;
+}
 form .question-container input {
     transform: scale(1.5);
     margin: 0 0.5rem;
